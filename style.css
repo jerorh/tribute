@@ -13,6 +13,9 @@ html{
   background-color: rgb(184,174,157,.5);
 	display:inline-block;
   list-style-type:none;
+  float:right;
+  margin-right: 30px;
+  margin-top: 40px;
 }
 
 #nav ul{
@@ -24,11 +27,104 @@ html{
 }
 
 header{
-  background-color: rgb(184,174,157,.5);
+  background-color: rgba(184,174,157,.3);
 }
 
 #pixel{
   margin:0 auto;
-  margin: 100px;
   position:center;
+}
+
+.uptop{
+  display:block;
+  text-align: center;
+}
+
+.first{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.school{
+  background-color: rgba(184,174,157,.3);
+  margin: 0 auto;
+  padding: 30px 30px 50px 50px;
+}
+
+.play{
+  background-color: rgba(184,174,157,.3);
+  padding: 30px 30px 50px 50px;
+  display: inline-block;
+}
+
+.work{
+  padding: 30px 30px 50px 50px;
+}
+
+h1{
+  text-align: center;
+  color: #540331;
+  font-family: 'David Libre', Georgia, serif;
+  font-size: 2em;
+}
+
+p{
+  font-family: 'David Libre', Georgia, serif;
+  color: #592e45;
+  font-size: 1.2em;
+}
+
+.minibio{
+  list-style-type:none;
+  color: #592e45;
+  display:block;
+  font-family: 'David Libre', Georgia, serif;
+  font-size: 1.5em;
+}
+
+.minibio ul{
+  display:block;
+  text-align:left;
+  padding-left: 200px;
+}
+
+.minibio li{
+  margin: 0 auto;
+  width: 225px;
+  text-align:left;
+}
+
+.minibio img{
+  width: 30px;
+}
+
+.logo{
+  margin-left: 30px;
+}
+
+a{
+  text-decoration:none;
+  color: #c20b73;
+}
+
+#cats{
+  float: right;
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+
+footer{
+  background-color: rgba(94,50,75, .6);
+  text-align:center;
+  padding: 1px;
+  font-size: .7em;
+}
+
+footer p{
+  color: #e4e1dd;
+}
+
+#lower{
+  padding-top: 20px;
 }
