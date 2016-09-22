@@ -3,6 +3,8 @@ body{
   background-image:url(pix/background.png);
   background-repeat:repeat-y;
   margin: 0 auto;
+  box-shadow: 2px 2px 5px #555;
+  box-shadow: 0px -2px 5px #555;
 }
 
 html{
@@ -16,18 +18,26 @@ html{
   float:right;
   margin-right: 30px;
   margin-top: 40px;
-}
-
-#nav ul{
-  float:right;
+  font-family: 'Rochester', 'Lucida Handwriting', cursive;
+  font-size: 2em;
 }
 
 #nav li{
   display:inline;
+  color:#800a4d;
+  text-shadow: 2px 2px 3px #e2bbbe;
+  padding-right: 25px;
+  padding-bottom:30px;
+}
+
+#nav li:hover{
+  color: #d7c250;
+  text-shadow: 1px 1px 3px #7b0046;
 }
 
 header{
   background-color: rgba(184,174,157,.3);
+  border-bottom: 5px double #7b0046;
 }
 
 #pixel{
@@ -37,18 +47,30 @@ header{
 
 .uptop{
   display:block;
-  text-align: center;
+  background-color: rgba(255,255,255,.5);
+  width: 250px;
+  text-align:center;
 }
 
+/**#tocenter{
+  width: 250px;
+  text-align:center;
+}**/
+
 .first{
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 70px;
+  text-align:center;
 }
 
 .school{
   background-color: rgba(184,174,157,.3);
   margin: 0 auto;
-  padding: 30px 30px 50px 50px;
+  padding: 30px 50px 50px 50px;
+}
+
+.school img{
+  width:100%;
 }
 
 .play{
@@ -82,15 +104,10 @@ p{
   font-size: 1.5em;
 }
 
-.minibio ul{
-  display:block;
-  text-align:left;
-  padding-left: 200px;
-}
 
 .minibio li{
   margin: 0 auto;
-  width: 225px;
+  width: 215px;
   text-align:left;
 }
 
@@ -112,19 +129,27 @@ a{
   padding: 20px;
   padding-right: 30px;
   padding-left: 50px;
+  width:45%;
 }
 
 footer{
   background-color: rgba(94,50,75, .6);
   text-align:center;
   padding: 1px;
-  font-size: .7em;
+  font-size: .8em;
 }
 
 footer p{
   color: #e4e1dd;
+  font-family: 'Rochester', 'Lucida Handwriting', cursive;
 }
 
 #lower{
   padding-top: 20px;
+}
+
+.social{
+  /**background-color: rgba(115,124,161,.8);**/
+  width: 225px;
+  margin: 0 auto;
 }
